@@ -1,0 +1,89 @@
+.testimonialswidget_testimonials { 
+	/* testimonials wrapper */
+	position: relative;
+}
+
+.testimonialswidget_testimonials .testimonialswidget_active {
+	/* active testimonials */
+	display: block;
+}
+
+.testimonialswidget_paging {
+	clear: both;
+	font-weight: bold;
+	height: 1.4em;
+}
+
+.testimonialswidget_testimonial {
+	clear: left;
+	display: none;
+	left: 0;
+	margin-bottom: 1.4em;
+	margin: 0;
+	position: absolute; 
+	top: 0;
+	width: 100%;
+}
+
+.testimonialswidget_testimonial .testimonialswidget_image {
+	float: left;
+	margin-bottom: 1.4em;
+	margin-right: .2em;
+}
+
+.widget .testimonialswidget_testimonial .testimonialswidget_image {
+	float: initial;
+}
+
+.testimonialswidget_testimonial q {
+	/* the testimonial itself */
+	/* Remove quotes by uncommenting the following */
+	/*
+	quotes: none;
+	*/
+}
+
+.widget .testimonialswidget_testimonial q p {
+	display: inline;
+}
+
+.testimonialswidget_testimonial cite {
+	/* outer wrapper for source & company */
+	display: block; /* To display source and company on a new line */
+	text-align: right; 
+}
+
+.testimonialswidget_testimonial cite:before {
+	content: "– "
+}
+
+.testimonialswidget_testimonial .testimonialswidget_source {
+	/* testimonial source */
+}
+
+.testimonialswidget_testimonial .testimonialswidget_join {
+	/* section between source and company information */
+}
+
+.testimonialswidget_testimonial .testimonialswidget_join:before {
+	/* join text */
+	content: ", "
+}
+
+.testimonialswidget_testimonial .testimonialswidget_company,
+.testimonialswidget_testimonial .testimonialswidget_url {
+	/* testimonial company and url informaiton */
+}
+
+.testimonialswidget_testimonial .testimonialswidget_extra {
+	/* testimonial source */
+}
+
+
+.testimonialswidget_testimonial_list { 
+	display: block;
+	left: initial;
+	margin-bottom: 1.0em;
+	position: relative; 
+	top: initial;
+}
