@@ -2852,9 +2852,9 @@ p.comment-form-comment {
 }
 .banner_left {
     float: left;
-    padding: 59px 0 0 15px;
+    padding: 27px 0 0 15px;
     position:absolute;
-    top: -38px;
+    top: 1px;
     width: 450px;
 }
 .banner_left font {
