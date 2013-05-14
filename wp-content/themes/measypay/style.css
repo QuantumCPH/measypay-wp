@@ -2766,10 +2766,19 @@ p.comment-form-comment {
 	background: url("images/bg.jpg") repeat-x scroll left top #FFFFFF;
 }
 /******************************header*******************************/
-.header_outer{
+@media screen and (max-width: 719px) { 
+  .header_outer{
+	/*width:306%*/;
+	float:left;
+	background:url(images/line.jpg) bottom left repeat-x;
+   }
+}
+@media screen and (min-width: 720px) { 
+  .header_outer{
 	width:100%;
 	float:left;
 	background:url(images/line.jpg) bottom left repeat-x;
+   }
 }
 .header{
 	width:990px;
@@ -2850,12 +2859,18 @@ p.comment-form-comment {
     width: 990px;
     z-index: 10;
 }
+.banner img{
+    position:absolute;
+	z-index:-999999;
+}
 .banner_left {
     float: left;
     padding: 27px 0 0 15px;
     position:absolute;
     top: 1px;
     width: 450px;
+	margin-left:16px;
+	z-index:99999999999;
 }
 .banner_left font {
     float: left;
@@ -2965,7 +2980,7 @@ p.comment-form-comment {
     width: 100%;
 }
 .body_inner{
-	width:990px;
+	width:1020px;
 	margin:auto;
 	background: none repeat scroll 0 0 #FFFFFF;
 }

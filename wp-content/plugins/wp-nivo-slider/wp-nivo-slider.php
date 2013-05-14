@@ -214,10 +214,12 @@ function show_nivo_slider() {
 }
 a.nivo-nextNav {
 	background-position:-32px 0;
-	right:-35px;
+	right:-5px;
+	position:absolute;
+	z-index:999999
 }
 a.nivo-prevNav {
-	left:-35px;
+	left:-5px;
 }
 </style>
 
