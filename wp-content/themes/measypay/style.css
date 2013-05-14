@@ -2967,6 +2967,7 @@ p.comment-form-comment {
 .body_inner{
 	width:990px;
 	margin:auto;
+	background: none repeat scroll 0 0 #FFFFFF;
 }
 .body_inner1{
 	width:960px;
