@@ -8,9 +8,9 @@ get_header(); ?>
 <div class="mainbg_Inner">
   <div class="inner_pg">
     <!--<div class="inner_pg_left">-->
-      <iframe id="blockrandom" name="iframe" src="http://localhost:86/" width="930px" height="650px" scrolling="auto" frameborder="0" class="wrapper">
+      <!--<iframe id="blockrandom" name="iframe" src="" width="930px" height="650px" scrolling="auto" frameborder="0" class="wrapper">
         
-      </iframe>
+      </iframe>-->
    <!-- </div>-->
     <!-- inner_pg_left -->
   </div>

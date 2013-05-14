@@ -505,7 +505,7 @@ input#searchsubmit {
 /* Links */
 a {
 	outline:none; 
-	color:#F75F14; 
+	color:#006CB8; 
 	text-decoration:none;
 }
 a:focus,
@@ -1141,15 +1141,11 @@ article.format-status .entry-content {
 	padding: 0;
 }
 .singular h1.entry-title {
-/*	color: #000;
-	font-size: 36px;
-	font-weight: bold;
-	line-height: 48px;*/
-	color: #F75F14;
+	color: #006CB8;
     font-family: MyCustomFont;
     font-size: 26px;
     padding-bottom: 5px;
-	border-bottom: 1px solid #F75F14;
+	border-bottom: 1px solid #006CB8;
 	float:left;
 }
 .singular h3.entry-title {
@@ -3167,7 +3163,7 @@ p.comment-form-comment {
     width: 140px;
 }
 .price_right1 {
-    color: #F75F14;
+    color: #006CB8;
     float: left;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 13px;
@@ -3593,7 +3589,7 @@ a.carousel-prev{
 	margin-right:20px;
 }
 .inner_pg_left h1{
-    color:#062901;
+    color:#006CB8;
     font-family:MyCustomFont2;
     font-size:26px;
 	padding-bottom:5px;	
@@ -3602,7 +3598,7 @@ a.carousel-prev{
    float:none !important;
 }
 .inner_pg_left h1.entry-title{
-   border-bottom: 0px solid #F75F14;
+   border-bottom: 0px solid #006CB8;
    margin-bottom: 15px;
    float:left;
 }
@@ -3647,7 +3643,7 @@ a.carousel-prev{
     width: 300px;
 }
 .inner_pg_right h1/*,.inner_pg_right h3*/ {
-    color: #F75F14;
+    color: #006CB8;
     font-family: MyCustomFont2;
     font-size: 22px !important;
     padding-bottom: 5px;
@@ -3657,7 +3653,7 @@ a.carousel-prev{
 .inner_pg_right h2{
    font-family:MyCustomFont2;
    font-size:20px;
-   color:#F75F14; 
+   color:#006CB8; 
 }
 .inner_pg_right h3{
    font-family:MyCustomFont2;
